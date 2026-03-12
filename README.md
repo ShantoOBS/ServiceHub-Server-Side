@@ -1,6 +1,6 @@
-## FixNow Server
+## ServiceHub Server
 
-FixNow Server is a Node.js/Express backend for a service booking platform.  
+ServiceHub Server is a Node.js/Express backend for a service booking platform.  
 It handles user management, service bookings, payments via Stripe, and email notifications to users.
 
 **Live API URL**: [`https://fix-now-server.vercel.app/`](https://fix-now-server.vercel.app/)

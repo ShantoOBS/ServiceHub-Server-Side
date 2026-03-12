@@ -36,7 +36,7 @@ const transporter = nodemailer.createTransport({
 
 async function run() {
   try {
-    await client.connect();
+    // await client.connect();
     const db = client.db("service-hub-db");
     const bookingCollection = db.collection("booking");
     const usersCollection = db.collection("users");
@@ -369,8 +369,7 @@ async function run() {
       }
     });
 
-    await client.db("admin").command({ ping: 1 });
-    console.log("MongoDB Connected");
+
 
   } finally {
     // Keep client open
